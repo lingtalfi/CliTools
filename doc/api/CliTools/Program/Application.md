@@ -48,6 +48,7 @@ class <span class="pl-k">Application</span> extends [AbstractProgram](https://gi
     - public [__construct](https://github.com/lingtalfi/CliTools/blob/master/doc/api/CliTools/Program/Application/__construct.md)() : void
     - public [registerCommand](https://github.com/lingtalfi/CliTools/blob/master/doc/api/CliTools/Program/Application/registerCommand.md)(string $commandClassName, ?$aliases) : void
     - protected [runProgram](https://github.com/lingtalfi/CliTools/blob/master/doc/api/CliTools/Program/Application/runProgram.md)([CliTools\Input\InputInterface](https://github.com/lingtalfi/CliTools/blob/master/doc/api/CliTools/Input/InputInterface.md) $input, [CliTools\Output\OutputInterface](https://github.com/lingtalfi/CliTools/blob/master/doc/api/CliTools/Output/OutputInterface.md) $output) : void
+    - protected [onCommandInstantiated](https://github.com/lingtalfi/CliTools/blob/master/doc/api/CliTools/Program/Application/onCommandInstantiated.md)([CliTools\Command\CommandInterface](https://github.com/lingtalfi/CliTools/blob/master/doc/api/CliTools/Command/CommandInterface.md) $command) : void
 
 - Inherited methods
     - public [AbstractProgram::setLogger](https://github.com/lingtalfi/CliTools/blob/master/doc/api/CliTools/Program/AbstractProgram/setLogger.md)([UniversalLogger\UniversalLoggerInterface](https://github.com/lingtalfi/UniversalLogger) $logger) : void
@@ -114,6 +115,7 @@ Methods
 - [Application::__construct](https://github.com/lingtalfi/CliTools/blob/master/doc/api/CliTools/Program/Application/__construct.md) &ndash; Builds the Application instance.
 - [Application::registerCommand](https://github.com/lingtalfi/CliTools/blob/master/doc/api/CliTools/Program/Application/registerCommand.md) &ndash; Registers a command with the given aliases.
 - [Application::runProgram](https://github.com/lingtalfi/CliTools/blob/master/doc/api/CliTools/Program/Application/runProgram.md) &ndash; Runs the program.
+- [Application::onCommandInstantiated](https://github.com/lingtalfi/CliTools/blob/master/doc/api/CliTools/Program/Application/onCommandInstantiated.md) &ndash; Can decorate the command after it has just been instantiated.
 - [AbstractProgram::setLogger](https://github.com/lingtalfi/CliTools/blob/master/doc/api/CliTools/Program/AbstractProgram/setLogger.md) &ndash; Sets the logger.
 - [AbstractProgram::setLoggerChannel](https://github.com/lingtalfi/CliTools/blob/master/doc/api/CliTools/Program/AbstractProgram/setLoggerChannel.md) &ndash; Sets the loggerChannel.
 - [AbstractProgram::setErrorIsVerbose](https://github.com/lingtalfi/CliTools/blob/master/doc/api/CliTools/Program/AbstractProgram/setErrorIsVerbose.md) &ndash; Sets the errorIsVerbose.

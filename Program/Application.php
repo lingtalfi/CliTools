@@ -83,6 +83,9 @@ class Application extends AbstractProgram
                 $commandClassName = $this->commands[$commandAlias];
                 try {
                     $instance = new $commandClassName;
+                    $this->onCommandInstantiated($instance);
+
+
                     if ($instance instanceof CommandInterface) {
                         $instance->run($input, $output);
                     } else {
@@ -102,4 +105,14 @@ class Application extends AbstractProgram
     }
 
 
+    /**
+     * Can decorate the command after it has just been instantiated.
+     *
+     * @param CommandInterface $command
+     * @overrideMe
+     */
+    protected function onCommandInstantiated(CommandInterface $command)
+    {
+
+    }
 }

@@ -73,7 +73,11 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
     
-- 1.0.0 -- 2019-02-22
+- 1.1.0 -- 2019-02-26
+
+    - add the CliTools\Program\Application->onCommandInstantiated method
+    
+- 1.0.0 -- 2019-02-26
 
     - initial commit
     
