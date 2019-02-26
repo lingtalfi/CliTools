@@ -81,8 +81,8 @@ just to write colors.
 Here is a message with the red word colored in red in regular console language (bash), and the same message
 in bashtml (which is more user-friendly):
 
-- bash:   This word is [31mred[0m.
-- bashtml:   This word is <red>red</red>.
+- bash:   ```This word is [31mred[0m.```
+- bashtml:   ```This word is <red>red</red>.```
 
 
 So, I personally will use bashtml for all my programs/applications, but you could use any kind of [formatter](https://github.com/lingtalfi/CliTools/blob/master/doc/api/CliTools/Formatter/FormatterInterface.md)
