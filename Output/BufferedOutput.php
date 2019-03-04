@@ -40,7 +40,12 @@ class BufferedOutput extends Output
      */
     public function writeMessages()
     {
-        echo implode(PHP_EOL, $this->messages);
+        /**
+         * Messages so far have their own PHP_EOL at the end of them,
+         * so I don't implode them using PHP_EOL.
+         *
+         */
+        echo implode("", $this->messages);
     }
 
 
