@@ -1,7 +1,7 @@
 <?php
 
 
-namespace CliTools\Input;
+namespace Ling\CliTools\Input;
 
 
 /**
@@ -22,7 +22,7 @@ namespace CliTools\Input;
  * <?php
  *
  *
- * use CliTools\Input\ArrayInput;
+ * use Ling\CliTools\Input\ArrayInput;
  *
  * require_once __DIR__ . "/../universe/bigbang.php"; // activate universe
  *

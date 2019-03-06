@@ -134,12 +134,12 @@ Example 1: a simple application example
 <?php
 
 
-use CliTools\Command\CommandInterface;
-use CliTools\Input\ArrayInput;
-use CliTools\Input\InputInterface;
-use CliTools\Output\Output;
-use CliTools\Output\OutputInterface;
-use CliTools\Program\Application;
+use Ling\CliTools\Command\CommandInterface;
+use Ling\CliTools\Input\ArrayInput;
+use Ling\CliTools\Input\InputInterface;
+use Ling\CliTools\Output\Output;
+use Ling\CliTools\Output\OutputInterface;
+use Ling\CliTools\Program\Application;
 
 require_once __DIR__ . "/../universe/bigbang.php"; // activate universe
 

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace CliTools\Input;
+namespace Ling\CliTools\Input;
 
 
-use CliTools\Exception\InvalidContextException;
+use Ling\CliTools\Exception\InvalidContextException;
 
 /**
  * The CommandLineInput class is an implementation of the command line as described by @page(the command line page).

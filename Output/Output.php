@@ -1,11 +1,11 @@
 <?php
 
 
-namespace CliTools\Output;
+namespace Ling\CliTools\Output;
 
 
-use CliTools\Formatter\BashtmlFormatter;
-use CliTools\Formatter\FormatterInterface;
+use Ling\CliTools\Formatter\BashtmlFormatter;
+use Ling\CliTools\Formatter\FormatterInterface;
 
 /**
  * The Output class.

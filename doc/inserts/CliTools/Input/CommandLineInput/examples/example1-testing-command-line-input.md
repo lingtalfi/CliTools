@@ -8,8 +8,8 @@ Example 1: testing the command line input
 <?php
 
 
-use CliTools\Input\CommandLineInput;
-use CliTools\Output\Output;
+use Ling\CliTools\Input\CommandLineInput;
+use Ling\CliTools\Output\Output;
 use Uni2\Application\UniToolApplication;
 
 require_once __DIR__ . "/../universe/bigbang.php"; // activate universe

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace CliTools\Command;
+namespace Ling\CliTools\Command;
 
 
-use CliTools\Input\InputInterface;
-use CliTools\Output\OutputInterface;
+use Ling\CliTools\Input\InputInterface;
+use Ling\CliTools\Output\OutputInterface;
 
 
 /**

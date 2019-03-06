@@ -1,13 +1,13 @@
 <?php
 
 
-namespace CliTools\Program;
+namespace Ling\CliTools\Program;
 
 
-use CliTools\Command\CommandInterface;
-use CliTools\Exception\ApplicationException;
-use CliTools\Input\InputInterface;
-use CliTools\Output\OutputInterface;
+use Ling\CliTools\Command\CommandInterface;
+use Ling\CliTools\Exception\ApplicationException;
+use Ling\CliTools\Input\InputInterface;
+use Ling\CliTools\Output\OutputInterface;
 
 /**
  * The Application class.

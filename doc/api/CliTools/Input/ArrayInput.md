@@ -31,7 +31,7 @@ You basically set all your parameters, options and flags using the setItems meth
 <?php
 
 
-use CliTools\Input\ArrayInput;
+use Ling\CliTools\Input\ArrayInput;
 
 require_once __DIR__ . "/../universe/bigbang.php"; // activate universe
 

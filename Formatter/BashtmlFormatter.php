@@ -1,7 +1,7 @@
 <?php
 
 
-namespace CliTools\Formatter;
+namespace Ling\CliTools\Formatter;
 
 
 /**
@@ -107,7 +107,7 @@ namespace CliTools\Formatter;
  * <?php
  *
  *
- * use CliTools\Formatter\BashtmlFormatter;
+ * use Ling\CliTools\Formatter\BashtmlFormatter;
  *
  * require_once __DIR__ . "/../universe/bigbang.php"; // activate universe
  *

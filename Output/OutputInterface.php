@@ -1,7 +1,7 @@
 <?php
 
 
-namespace CliTools\Output;
+namespace Ling\CliTools\Output;
 
 
 /**

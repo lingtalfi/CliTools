@@ -1,11 +1,11 @@
 <?php
 
 
-namespace CliTools\Program;
+namespace Ling\CliTools\Program;
 
 
-use CliTools\Input\InputInterface;
-use CliTools\Output\OutputInterface;
+use Ling\CliTools\Input\InputInterface;
+use Ling\CliTools\Output\OutputInterface;
 
 /**
  * The ProgramInterface interface.

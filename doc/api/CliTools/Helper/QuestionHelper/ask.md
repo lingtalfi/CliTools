@@ -67,12 +67,12 @@ Example 1: simple ask example
 <?php
 
 
-use CliTools\Helper\QuestionHelper;
-use CliTools\Input\CommandLineInput;
-use CliTools\Input\InputInterface;
-use CliTools\Output\Output;
-use CliTools\Output\OutputInterface;
-use CliTools\Program\AbstractProgram;
+use Ling\CliTools\Helper\QuestionHelper;
+use Ling\CliTools\Input\CommandLineInput;
+use Ling\CliTools\Input\InputInterface;
+use Ling\CliTools\Output\Output;
+use Ling\CliTools\Output\OutputInterface;
+use Ling\CliTools\Program\AbstractProgram;
 
 require_once __DIR__ . "/../universe/bigbang.php"; // activate universe
 
@@ -131,12 +131,12 @@ then the question gets repeated until the callback returns true.
 <?php
 
 
-use CliTools\Helper\QuestionHelper;
-use CliTools\Input\CommandLineInput;
-use CliTools\Input\InputInterface;
-use CliTools\Output\Output;
-use CliTools\Output\OutputInterface;
-use CliTools\Program\AbstractProgram;
+use Ling\CliTools\Helper\QuestionHelper;
+use Ling\CliTools\Input\CommandLineInput;
+use Ling\CliTools\Input\InputInterface;
+use Ling\CliTools\Output\Output;
+use Ling\CliTools\Output\OutputInterface;
+use Ling\CliTools\Program\AbstractProgram;
 
 require_once __DIR__ . "/../universe/bigbang.php"; // activate universe
 

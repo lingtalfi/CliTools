@@ -1,7 +1,7 @@
 <?php
 
 
-namespace CliTools\Formatter;
+namespace Ling\CliTools\Formatter;
 
 
 /**

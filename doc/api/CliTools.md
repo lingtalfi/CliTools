@@ -86,6 +86,6 @@ Table of contents
 
 Dependencies
 ============
-- [Universe: UniversalLogger](https://github.com/karayabin/universe-snapshot/tree/master/universe/UniversalLogger)
+- [Universe: UniversalLogger](https://github.com/karayabin/universe-snapshot/tree/master/universe/Ling/UniversalLogger)
 
 

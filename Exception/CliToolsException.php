@@ -1,7 +1,7 @@
 <?php
 
 
-namespace CliTools\Exception;
+namespace Ling\CliTools\Exception;
 
 
 /**

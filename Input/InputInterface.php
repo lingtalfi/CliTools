@@ -1,7 +1,7 @@
 <?php
 
 
-namespace CliTools\Input;
+namespace Ling\CliTools\Input;
 
 
 /**

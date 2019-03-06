@@ -1,10 +1,10 @@
 <?php
 
 
-namespace CliTools\Helper;
+namespace Ling\CliTools\Helper;
 
 
-use CliTools\Output\OutputInterface;
+use Ling\CliTools\Output\OutputInterface;
 
 /**
  * The QuestionHelper class.
