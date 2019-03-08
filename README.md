@@ -73,6 +73,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
     
+- 1.4.1 -- 2019-03-08
+
+    - fix Application->runProgram not showing accurate error message
+
 - 1.4.0 -- 2019-03-04
 
     - update CommandLineInput, now supports combined one-letter flags, revisited syntax.
