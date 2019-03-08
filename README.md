@@ -73,6 +73,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
     
+- 1.4.2 -- 2019-03-08
+
+    - fix Application->runProgram not showing exception trace in error verbose mode
+
 - 1.4.1 -- 2019-03-08
 
     - fix Application->runProgram not showing accurate error message
