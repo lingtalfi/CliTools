@@ -15,6 +15,8 @@ use Ling\CliTools\Output\OutputInterface;
  *
  * Example:
  *
+ *
+ * ```txt
  *     +---------------+-----------------------+------------------+
  *     | ISBN          | Title                 | Author           |
  *     +---------------+-----------------------+------------------+
@@ -22,6 +24,7 @@ use Ling\CliTools\Output\OutputInterface;
  *     | 9971-5-0210-0 | A Tale of Two Cities  | Charles Dickens  |
  *     | 960-425-059-0 | The Lord of the Rings | J. R. R. Tolkien |
  *     +---------------+-----------------------+------------------+
+ * ```
  */
 class TableUtil
 {
@@ -103,6 +106,8 @@ class TableUtil
     /**
      * Renders a table like this:
      *
+     *
+     * ```txt
      *     +---------------+-----------------------+------------------+
      *     | ISBN          | Title                 | Author           |
      *     +---------------+-----------------------+------------------+
@@ -110,6 +115,7 @@ class TableUtil
      *     | 9971-5-0210-0 | A Tale of Two Cities  | Charles Dickens  |
      *     | 960-425-059-0 | The Lord of the Rings | J. R. R. Tolkien |
      *     +---------------+-----------------------+------------------+
+     * ```
      *
      * @param OutputInterface $output
      */
