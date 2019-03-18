@@ -25,6 +25,13 @@ use Ling\CliTools\Output\OutputInterface;
  *     | 960-425-059-0 | The Lord of the Rings | J. R. R. Tolkien |
  *     +---------------+-----------------------+------------------+
  * ```
+ *
+ *
+ * In my console, it looks like this:
+ *
+ * ![cli tools screen shot](http://lingtalfi.com/img/universe/CliTools/clitools-tableutil.png)
+ *
+ *
  */
 class TableUtil
 {
