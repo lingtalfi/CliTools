@@ -46,10 +46,12 @@ class <span class="pl-k">TableUtil</span>  {
     - protected array [$rows](#property-rows) ;
     - protected int [$horizontalPadding](#property-horizontalPadding) ;
     - protected array [$symbols](#property-symbols) ;
+    - protected array [$options](#property-options) ;
 
 - Methods
     - public [__construct](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/__construct.md)() : void
     - public [setHeaders](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/setHeaders.md)(array $headers) : void
+    - public [setOptions](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/setOptions.md)(array $options) : void
     - public [setRows](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/setRows.md)(array $rows) : void
     - public [render](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/render.md)([Ling\CliTools\Output\OutputInterface](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Output/OutputInterface.md) $output) : void
     - protected [writeRow](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/writeRow.md)([Ling\CliTools\Output\OutputInterface](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Output/OutputInterface.md) $output, array $row, array $columnWidths) : void
@@ -94,6 +96,16 @@ Properties
     
     
 
+- <span id="property-options"><b>options</b></span>
+
+    This property holds the options for this instance.
+    It's used to customize the look'n'feel of the rendered table.
+    It's an array with the following entries:
+    
+    - use_row_separator: bool=true. If false, no separator line will be rendered between two consecutive rows.
+    
+    
+
 
 
 Methods
@@ -101,6 +113,7 @@ Methods
 
 - [TableUtil::__construct](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/__construct.md) &ndash; Builds the TableUtil instance.
 - [TableUtil::setHeaders](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/setHeaders.md) &ndash; Sets the headers.
+- [TableUtil::setOptions](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/setOptions.md) &ndash; Sets the options.
 - [TableUtil::setRows](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/setRows.md) &ndash; Sets the rows.
 - [TableUtil::render](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/render.md) &ndash; Writes a html like table to the given $output.
 - [TableUtil::writeRow](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/writeRow.md) &ndash; Writes a table row to the given output.
@@ -153,7 +166,126 @@ $table->render($output);
 Will look like this:
 
 
-![cli tools screen shot](http://lingtalfi.com/img/universe/CliTools/clitools-tableutil.png)
+![cli tools screen shot](http://lingtalfi.com/img/universe/CliTools/clitools-tableutil.png)Example #2: A table without row separator
+---------------
+
+
+The following code:
+
+```php
+
+$output = new Output();
+$headers = [
+    'ISBN',
+    'Title',
+    'Author',
+];
+
+$rows = [
+    [
+        '99921-58-10-7',
+        'Divine Comedy',
+        'Dante Alighieri',
+    ],
+    [
+        '9971-5-0210-0',
+        'A Tale of Two Cities',
+        'Charles Dickens',
+    ],
+    [
+        '960-425-059-0',
+        'The Lord of the Rings',
+        'J. R. R. Tolkien',
+    ],
+];
+
+$table = new TableUtil();
+$table->setHeaders($headers);
+$table->setOptions([
+    "use_row_separator" => false,
+]);
+$table->setRows($rows);
+$table->render($output);
+```
+
+
+Will look like this:
+
+
+![cli tools screen shot](http://lingtalfi.com/img/universe/CliTools/tableutil-nosep.png)Example #3: A table without header
+---------------
+
+
+The following code:
+
+```php
+$output = new Output();
+$rows = [
+    [
+        '99921-58-10-7',
+        'Divine Comedy',
+        'Dante Alighieri',
+    ],
+    [
+        '9971-5-0210-0',
+        'A Tale of Two Cities',
+        'Charles Dickens',
+    ],
+    [
+        '960-425-059-0',
+        'The Lord of the Rings',
+        'J. R. R. Tolkien',
+    ],
+];
+
+$table = new TableUtil();
+$table->setRows($rows);
+$table->render($output);
+```
+
+
+Will look like this:
+
+
+![cli tools screen shot](http://lingtalfi.com/img/universe/CliTools/tableutil-no-header.png)Example #4: A table without header and no row separator
+---------------
+
+
+The following code:
+
+```php
+$output = new Output();
+$rows = [
+    [
+        '99921-58-10-7',
+        'Divine Comedy',
+        'Dante Alighieri',
+    ],
+    [
+        '9971-5-0210-0',
+        'A Tale of Two Cities',
+        'Charles Dickens',
+    ],
+    [
+        '960-425-059-0',
+        'The Lord of the Rings',
+        'J. R. R. Tolkien',
+    ],
+];
+
+$table = new TableUtil();
+$table->setOptions([
+    "use_row_separator" => false,
+]);
+$table->setRows($rows);
+$table->render($output);
+```
+
+
+Will look like this:
+
+
+![cli tools screen shot](http://lingtalfi.com/img/universe/CliTools/tableutil-noheader-nosep.png)
 
 
 Location

@@ -2,12 +2,12 @@
 [Back to the Ling\CliTools\Util\TableUtil class](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil.md)
 
 
-TableUtil::setRows
+TableUtil::setOptions
 ================
 
 
 
-TableUtil::setRows — Sets the rows.
+TableUtil::setOptions — Sets the options.
 
 
 
@@ -16,12 +16,12 @@ Description
 ================
 
 
-public [TableUtil::setRows](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/setRows.md)(array $rows) : void
+public [TableUtil::setOptions](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/setOptions.md)(array $options) : void
 
 
 
 
-Sets the rows.
+Sets the options.
 
 
 
@@ -30,7 +30,7 @@ Parameters
 ================
 
 
-- rows
+- options
 
     
 
@@ -52,5 +52,5 @@ See Also
 
 The [TableUtil](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil.md) class.
 
-Previous method: [setOptions](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/setOptions.md)<br>Next method: [render](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/render.md)<br>
+Previous method: [setHeaders](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/setHeaders.md)<br>Next method: [setRows](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/setRows.md)<br>
 
