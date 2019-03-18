@@ -34,11 +34,6 @@ Example:
 ```
 
 
-In my console, it looks like this:
-
-![cli tools screen shot](http://lingtalfi.com/img/universe/CliTools/clitools-tableutil.png)
-
-
 
 Class synopsis
 ==============
@@ -112,7 +107,53 @@ Methods
 - [TableUtil::getColumnWidths](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/getColumnWidths.md) &ndash; Parses the rows, and returns an array of maxWidths for each column.
 
 
+Examples
+==========
 
+Example #1: A simple table with TableUtil
+---------------
+
+
+The following code:
+
+```php
+
+$output = new Output();
+$headers = [
+    'ISBN',
+    'Title',
+    'Author',
+];
+
+$rows = [
+    [
+        '99921-58-10-7',
+        'Divine Comedy',
+        'Dante Alighieri',
+    ],
+    [
+        '9971-5-0210-0',
+        'A Tale of Two Cities',
+        'Charles Dickens',
+    ],
+    [
+        '960-425-059-0',
+        'The Lord of the Rings',
+        'J. R. R. Tolkien',
+    ],
+];
+
+$table = new TableUtil();
+$table->setHeaders($headers);
+$table->setRows($rows);
+$table->render($output);
+```
+
+
+Will look like this:
+
+
+![cli tools screen shot](http://lingtalfi.com/img/universe/CliTools/clitools-tableutil.png)
 
 
 Location

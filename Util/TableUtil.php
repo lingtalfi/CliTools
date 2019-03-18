@@ -27,11 +27,6 @@ use Ling\CliTools\Output\OutputInterface;
  * ```
  *
  *
- * In my console, it looks like this:
- *
- * ![cli tools screen shot](http://lingtalfi.com/img/universe/CliTools/clitools-tableutil.png)
- *
- *
  */
 class TableUtil
 {
