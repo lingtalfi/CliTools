@@ -102,7 +102,7 @@ Methods
 - [TableUtil::__construct](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/__construct.md) &ndash; Builds the TableUtil instance.
 - [TableUtil::setHeaders](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/setHeaders.md) &ndash; Sets the headers.
 - [TableUtil::setRows](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/setRows.md) &ndash; Sets the rows.
-- [TableUtil::render](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/render.md) &ndash; | 960-425-059-0 | The Lord of the Rings | J.
+- [TableUtil::render](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/render.md) &ndash; Writes a html like table to the given $output.
 - [TableUtil::writeRow](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/writeRow.md) &ndash; Writes a table row to the given output.
 - [TableUtil::getColumnWidths](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Util/TableUtil/getColumnWidths.md) &ndash; Parses the rows, and returns an array of maxWidths for each column.
 

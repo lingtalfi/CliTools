@@ -106,7 +106,9 @@ class TableUtil
 
 
     /**
-     * Renders a table like this:
+     * Writes a html like table to the given $output.
+     *
+     * The table will look like this:
      *
      *
      * ```txt
