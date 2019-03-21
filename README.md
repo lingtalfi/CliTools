@@ -73,6 +73,11 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
     
+- 1.8.0 -- 2019-03-21
+
+    - implemented exit status system for Application and AbstractProgram.
+    - CommandInterface::run method now returns the exit status rather than void
+
 - 1.7.0 -- 2019-03-18
 
     - update TableUtil, add use_row_separator option
