@@ -85,7 +85,7 @@ abstract class AbstractProgram implements ProgramInterface
      *
      *
      *
-     * @var bool = true
+     * @var bool = false
      */
     protected $useExitStatus;
 
@@ -98,7 +98,7 @@ abstract class AbstractProgram implements ProgramInterface
         $this->logger = null;
         $this->loggerChannel = "error";
         $this->errorIsVerbose = false;
-        $this->useExitStatus = true;
+        $this->useExitStatus = false;
     }
 
     /**

@@ -73,9 +73,13 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
     
+- 1.9.0 -- 2019-03-21
+
+    - useExitStatus now has the default value of false (for compatibility)
+
 - 1.8.0 -- 2019-03-21
 
-    - implemented exit status system for Application and AbstractProgram.
+    - implemented exit status system for Application and AbstractProgram
     - CommandInterface::run method now returns the exit status rather than void
 
 - 1.7.0 -- 2019-03-18
