@@ -73,6 +73,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
     
+- 1.10.0 -- 2019-03-26
+
+    - fix BufferedOutput->write not using the formatter
+
 - 1.9.0 -- 2019-03-21
 
     - useExitStatus now has the default value of false (for compatibility)
