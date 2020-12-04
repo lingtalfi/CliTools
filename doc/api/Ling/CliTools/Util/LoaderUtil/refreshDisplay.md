@@ -46,7 +46,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [LoaderUtil::refreshDisplay](https://github.com/lingtalfi/CliTools/blob/master/Util/LoaderUtil.php#L117-L142)
+See the source code for method [LoaderUtil::refreshDisplay](https://github.com/lingtalfi/CliTools/blob/master/Util/LoaderUtil.php#L115-L149)
 
 
 See Also

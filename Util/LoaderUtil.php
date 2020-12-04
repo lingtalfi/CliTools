@@ -84,8 +84,6 @@ class LoaderUtil
     }
 
 
-
-
     /**
      * Increments the loader by the given amount.
      *
@@ -119,6 +117,9 @@ class LoaderUtil
         // works on my mac, don't know about other systems
         $left = "\033[D";
 
+        if ($this->currentItem >= $this->nbTotalItems) {
+            $this->currentItem = $this->nbTotalItems;
+        }
 
         if ('int' === $this->displayMode) {
             $visibleChars = (string)($this->currentItem . "/" . $this->nbTotalItems);
@@ -133,11 +134,17 @@ class LoaderUtil
         }
 
 
+        //
+        if (0 === $this->currentItem) {
+            $message = '';
+        } else {
+            $message = str_repeat($left, $this->lastLoaderLength);
+        }
+        $message .= $visibleChars;
+
+
         $this->lastLoaderLength = strlen($visibleChars);
 
-        //
-        $message = str_repeat($left, $this->lastLoaderLength);
-        $message .= $visibleChars;
         $this->output->write($message);
     }
 }

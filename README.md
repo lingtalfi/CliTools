@@ -73,6 +73,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
 
+- 1.10.4 -- 2020-12-04
+
+    - fix LoaderUtil->incrementBy eating characters
+
 - 1.10.3 -- 2020-12-04
 
     - add LoaderUtil class, update Output class removed messages internal buffer

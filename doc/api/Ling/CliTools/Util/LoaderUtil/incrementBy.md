@@ -49,7 +49,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [LoaderUtil::incrementBy](https://github.com/lingtalfi/CliTools/blob/master/Util/LoaderUtil.php#L94-L98)
+See the source code for method [LoaderUtil::incrementBy](https://github.com/lingtalfi/CliTools/blob/master/Util/LoaderUtil.php#L92-L96)
 
 
 See Also

@@ -46,7 +46,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [LoaderUtil::start](https://github.com/lingtalfi/CliTools/blob/master/Util/LoaderUtil.php#L104-L108)
+See the source code for method [LoaderUtil::start](https://github.com/lingtalfi/CliTools/blob/master/Util/LoaderUtil.php#L102-L106)
 
 
 See Also
