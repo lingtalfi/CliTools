@@ -73,6 +73,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
 
+- 1.10.5 -- 2020-12-04
+
+    - Add lpi-deps.byml file
+
 - 1.10.4 -- 2020-12-04
 
     - fix LoaderUtil->incrementBy eating characters
