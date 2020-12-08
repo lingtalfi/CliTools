@@ -73,6 +73,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
 
+- 1.10.6 -- 2020-12-08
+
+    - Fix lpi-deps not using natsort.
+
 - 1.10.5 -- 2020-12-04
 
     - Add lpi-deps.byml file
