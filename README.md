@@ -1,6 +1,6 @@
 CliTools
 ===========
-2019-02-22 -> 2020-12-04
+2019-02-22 -> 2020-12-14
 
 
 
@@ -73,6 +73,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
 
+- 1.10.7 -- 2020-12-14
+
+    - update BashtmlFormatter, now renders html tags when in html environment
+  
 - 1.10.6 -- 2020-12-08
 
     - Fix lpi-deps not using natsort.

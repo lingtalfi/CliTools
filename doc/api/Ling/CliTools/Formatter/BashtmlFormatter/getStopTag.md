@@ -54,7 +54,7 @@ Returns bool | string.
 
 Source Code
 ===========
-See the source code for method [BashtmlFormatter::getStopTag](https://github.com/lingtalfi/CliTools/blob/master/Formatter/BashtmlFormatter.php#L322-L330)
+See the source code for method [BashtmlFormatter::getStopTag](https://github.com/lingtalfi/CliTools/blob/master/Formatter/BashtmlFormatter.php#L338-L349)
 
 
 See Also

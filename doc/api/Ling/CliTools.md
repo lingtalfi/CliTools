@@ -1,6 +1,6 @@
 Ling/CliTools
 ================
-2019-02-26 --> 2020-12-08
+2019-02-26 --> 2020-12-14
 
 
 
@@ -110,6 +110,7 @@ Table of contents
 
 Dependencies
 ============
+- [Bat](https://github.com/lingtalfi/Bat)
 - [UniversalLogger](https://github.com/lingtalfi/UniversalLogger)
 
 
