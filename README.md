@@ -73,6 +73,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
 
+- 1.10.8 -- 2020-12-14
+
+    - update BashtmlFormatter, now automatically uses nl2br when in a browser context
+  
 - 1.10.7 -- 2020-12-14
 
     - update BashtmlFormatter, now renders html tags when in html environment

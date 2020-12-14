@@ -49,7 +49,7 @@ Returns string.
 
 Source Code
 ===========
-See the source code for method [BashtmlFormatter::format](https://github.com/lingtalfi/CliTools/blob/master/Formatter/BashtmlFormatter.php#L253-L281)
+See the source code for method [BashtmlFormatter::format](https://github.com/lingtalfi/CliTools/blob/master/Formatter/BashtmlFormatter.php#L253-L287)
 
 
 See Also

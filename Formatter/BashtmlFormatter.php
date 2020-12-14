@@ -253,7 +253,7 @@ class BashtmlFormatter implements FormatterInterface
     public function format(string $expression): string
     {
         $pattern = '!</?([a-zA-Z0-9:_]+)>!Usm';
-        return preg_replace_callback($pattern, function ($matches) {
+        $res = preg_replace_callback($pattern, function ($matches) {
             $ret = '';
             $isClosing = ('</' === substr($matches[0], 0, 2));
             $style = $matches[1];
@@ -276,8 +276,14 @@ class BashtmlFormatter implements FormatterInterface
                     return $matches[0];
                 }
             }
+
             return $ret;
         }, $expression);
+
+        if (false === $this->isCli) {
+            $res = nl2br($res);
+        }
+        return $res;
     }
 
 
