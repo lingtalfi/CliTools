@@ -4,7 +4,7 @@
 namespace Ling\CliTools\Formatter;
 
 
-use Ling\Bat\CurrentProcess;
+use Ling\Bat\CurrentProcessTool;
 
 /**
  * The BashtmlFormatter class.
@@ -244,7 +244,7 @@ class BashtmlFormatter implements FormatterInterface
         ];
         $this->escapeSequence = "\033";
         $this->parents = [];
-        $this->isCli = CurrentProcess::isCli();
+        $this->isCli = CurrentProcessTool::isCli();
     }
 
     /**
