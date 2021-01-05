@@ -16,7 +16,7 @@ Description
 ================
 
 
-protected [Application::onCommandNotFound](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Program/Application/onCommandNotFound.md)(string $commandAlias) : void
+protected [Application::onCommandNotFound](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Program/Application/onCommandNotFound.md)(string $commandAlias, [Ling\CliTools\Input\InputInterface](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Input/InputInterface.md) $input, [Ling\CliTools\Output\OutputInterface](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Output/OutputInterface.md) $output) : void
 
 
 
@@ -34,6 +34,14 @@ Parameters
 
 
 - commandAlias
+
+    
+
+- input
+
+    
+
+- output
 
     
 
@@ -57,7 +65,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [Application::onCommandNotFound](https://github.com/lingtalfi/CliTools/blob/master/Program/Application.php#L139-L142)
+See the source code for method [Application::onCommandNotFound](https://github.com/lingtalfi/CliTools/blob/master/Program/Application.php#L141-L144)
 
 
 See Also

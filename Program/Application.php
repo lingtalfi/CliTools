@@ -108,7 +108,7 @@ class Application extends AbstractProgram
                     throw new ApplicationException($e->getMessage());
                 }
             } else {
-                $this->onCommandNotFound($commandAlias);
+                $this->onCommandNotFound($commandAlias, $input, $output);
             }
         } else {
             throw new ApplicationException("The name of the command to execute was not found in the given command line.");
@@ -133,10 +133,12 @@ class Application extends AbstractProgram
      * By default, it throws an exception.
      *
      * @param string $commandAlias
+     * @param InputInterface $input
+     * @param OutputInterface $output
      * @throws \Exception
      * @overrideMe
      */
-    protected function onCommandNotFound(string $commandAlias)
+    protected function onCommandNotFound(string $commandAlias, InputInterface $input, OutputInterface $output)
     {
         throw new ApplicationException("Command $commandAlias not registered.");
     }

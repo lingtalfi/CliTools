@@ -73,6 +73,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
 
+- 1.10.11 -- 2021-01-05
+
+    - update Application->onCommandNotFound, add input/output arguments
+  
 - 1.10.10 -- 2021-01-05
 
     - update Application, add onCommandNotFound hook
