@@ -55,7 +55,7 @@ If null is returned, 0 should be assumed.
 
 Source Code
 ===========
-See the source code for method [Application::runProgram](https://github.com/lingtalfi/CliTools/blob/master/Program/Application.php#L86-L118)
+See the source code for method [Application::runProgram](https://github.com/lingtalfi/CliTools/blob/master/Program/Application.php#L86-L116)
 
 
 See Also

@@ -1,6 +1,6 @@
 CliTools
 ===========
-2019-02-22 -> 2020-12-31
+2019-02-22 -> 2021-01-05
 
 
 
@@ -72,6 +72,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 
 History Log
 =================
+
+- 1.10.10 -- 2021-01-05
+
+    - update Application, add onCommandNotFound hook
 
 - 1.10.9 -- 2020-12-31
 
