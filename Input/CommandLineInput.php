@@ -21,10 +21,15 @@ use Ling\CliTools\Exception\InvalidContextException;
  *
  *
  * - **option**: an option contains an equal symbol (=). The key is the part on the left of the equal symbol, and the value is the part on the right.
- *      An option can start with two or more dashes, but not one dash (one dash is reserved for one-letter flags, see the "flags" entry for more details).
+ *      The option key can be prefixed with one or more dashes for readability, but they are not part of the option's key.
+ *      So for instance the option my-option=ABCD can also be written -my-option=ABCD or --my-option=ABCD. Those are all the same
+ *
  * - **parameter**: a parameter doesn't contain an equal symbol (=). A parameter doesn't start with a dash.
+ *
  * - **flag**: a parameter doesn't contain an equal symbol (=). A parameter starts with a dash.
  *              If the flag starts with only one dash, then what follows is a one letter dash, or a combination of multiple one letter flags.
+ *              If the flag starts with two (or more) dashes, then what follows is the name of the flag.
+ *              In other words: -a is flag a, -abc is the combination of three flags a, b and c, and --abc is the flag named abc.
  *
  *
  * Notes:

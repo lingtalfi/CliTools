@@ -1,6 +1,6 @@
 CliTools
 ===========
-2019-02-22 -> 2021-01-05
+2019-02-22 -> 2021-01-07
 
 
 
@@ -73,6 +73,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
 
+- 1.10.12 -- 2021-01-07
+
+    - update CommandLineInput description
+  
 - 1.10.11 -- 2021-01-05
 
     - update Application->onCommandNotFound, add input/output arguments
