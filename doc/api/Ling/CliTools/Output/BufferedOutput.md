@@ -4,7 +4,7 @@
 
 The BufferedOutput class
 ================
-2019-02-26 --> 2021-01-07
+2019-02-26 --> 2021-01-08
 
 
 
@@ -87,4 +87,4 @@ See the source code of [Ling\CliTools\Output\BufferedOutput](https://github.com/
 
 SeeAlso
 ==============
-Previous class: [InputInterface](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Input/InputInterface.md)<br>Next class: [Output](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Output/Output.md)<br>
+Previous class: [WritableCommandLineInput](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Input/WritableCommandLineInput.md)<br>Next class: [Output](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Output/Output.md)<br>

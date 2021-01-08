@@ -1,6 +1,6 @@
 CliTools
 ===========
-2019-02-22 -> 2021-01-07
+2019-02-22 -> 2021-01-08
 
 
 
@@ -73,6 +73,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
 
+- 1.10.13 -- 2021-01-08
+
+    - add WritableCommandLineInput class
+  
 - 1.10.12 -- 2021-01-07
 
     - update CommandLineInput description

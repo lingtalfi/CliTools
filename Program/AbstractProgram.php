@@ -148,10 +148,9 @@ abstract class AbstractProgram implements ProgramInterface
     public function run(InputInterface $input, OutputInterface $output)
     {
         try {
-
             $exitCode = $this->runProgram($input, $output);
-
         } catch (\Exception $e) {
+
 
             $exitCode = 1;
             if (true === $this->errorIsVerbose) {
