@@ -1,6 +1,6 @@
 CliTools
 ===========
-2019-02-22 -> 2021-01-08
+2019-02-22 -> 2021-01-11
 
 
 
@@ -73,6 +73,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
 
+- 1.10.14 -- 2021-01-11
+
+    - update BashtmlFormatter, add setFormatMode method
+  
 - 1.10.13 -- 2021-01-08
 
     - add WritableCommandLineInput class

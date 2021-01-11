@@ -4,7 +4,7 @@
 
 The BashtmlFormatter class
 ================
-2019-02-26 --> 2021-01-08
+2019-02-26 --> 2021-01-11
 
 
 
@@ -159,6 +159,7 @@ class <span class="pl-k">BashtmlFormatter</span> implements [FormatterInterface]
 
 - Methods
     - public [__construct](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Formatter/BashtmlFormatter/__construct.md)() : void
+    - public [setFormatMode](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Formatter/BashtmlFormatter/setFormatMode.md)(string $mode) : void
     - public [format](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Formatter/BashtmlFormatter/format.md)(string $expression) : string
     - private [addParent](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Formatter/BashtmlFormatter/addParent.md)(string $name) : void
     - private [removeParent](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Formatter/BashtmlFormatter/removeParent.md)(string $name) : void
@@ -210,6 +211,7 @@ Methods
 ==============
 
 - [BashtmlFormatter::__construct](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Formatter/BashtmlFormatter/__construct.md) &ndash; Builds the BashtmlFormatter instance.
+- [BashtmlFormatter::setFormatMode](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Formatter/BashtmlFormatter/setFormatMode.md) &ndash; Sets the format mode.
 - [BashtmlFormatter::format](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Formatter/BashtmlFormatter/format.md) &ndash; Parses the given $expression and returns its formatted/interpreted version.
 - [BashtmlFormatter::addParent](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Formatter/BashtmlFormatter/addParent.md) &ndash; Adds a parent to the stack.
 - [BashtmlFormatter::removeParent](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Formatter/BashtmlFormatter/removeParent.md) &ndash; Removes a parent from the stack.

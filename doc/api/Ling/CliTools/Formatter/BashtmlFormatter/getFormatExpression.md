@@ -53,7 +53,7 @@ Returns string.
 
 Source Code
 ===========
-See the source code for method [BashtmlFormatter::getFormatExpression](https://github.com/lingtalfi/CliTools/blob/master/Formatter/BashtmlFormatter.php#L367-L406)
+See the source code for method [BashtmlFormatter::getFormatExpression](https://github.com/lingtalfi/CliTools/blob/master/Formatter/BashtmlFormatter.php#L397-L436)
 
 
 See Also

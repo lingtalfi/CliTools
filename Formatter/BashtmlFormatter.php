@@ -5,6 +5,7 @@ namespace Ling\CliTools\Formatter;
 
 
 use Ling\Bat\CurrentProcessTool;
+use Ling\CliTools\Exception\CliToolsException;
 
 /**
  * The BashtmlFormatter class.
@@ -246,6 +247,35 @@ class BashtmlFormatter implements FormatterInterface
         $this->parents = [];
         $this->isCli = CurrentProcessTool::isCli();
     }
+
+
+    /**
+     * Sets the format mode.
+     * Can be one of:
+     * - cli
+     * - web
+     *
+     * This affects how the messages are formatted, either for the cli or the web.
+     * By default, our class makes its own guess based on what environment the call to the format was made from.
+     * You can force a format using this method.
+     *
+     *
+     *
+     *
+     *
+     * @param string $mode
+     */
+    public function setFormatMode(string $mode)
+    {
+        if ('cli' === $mode) {
+            $this->isCli = true;
+        } elseif ('web' === $mode) {
+            $this->isCli = false;
+        } else {
+            throw new CliToolsException("Unknown format mode: \"$mode\".");
+        }
+    }
+
 
     /**
      * @implementation
