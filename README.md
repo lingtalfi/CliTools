@@ -1,6 +1,6 @@
 CliTools
 ===========
-2019-02-22 -> 2021-01-11
+2019-02-22 -> 2021-01-12
 
 
 
@@ -72,6 +72,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 
 History Log
 =================
+
+- 1.10.15 -- 2021-01-12
+
+    - add BashtmlStringTool
 
 - 1.10.14 -- 2021-01-11
 
