@@ -26,6 +26,7 @@ Table of contents
     - [BashtmlStringTool::removeLastIncompleteTag](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Helper/BashtmlStringTool/removeLastIncompleteTag.md) &ndash; Returns the given string, after removing an incomplete bashtml tag if it ends the given string.
 - [CommandLineInputHelper](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Helper/CommandLineInputHelper.md) &ndash; The CommandLineInputHelper class.
     - [CommandLineInputHelper::getInputWritableCopy](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Helper/CommandLineInputHelper/getInputWritableCopy.md) &ndash; Returns a WritableCommandLineInput instance, copy of the given input.
+    - [CommandLineInputHelper::paramStringToArgv](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Helper/CommandLineInputHelper/paramStringToArgv.md) &ndash; Returns the argv array version of the given param string.
 - [QuestionHelper](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Helper/QuestionHelper.md) &ndash; The QuestionHelper class.
     - [QuestionHelper::ask](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Helper/QuestionHelper/ask.md) &ndash; Asks the given $question to the $user, and returns the answer (string).
 - [VirginiaMessageHelper](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Helper/VirginiaMessageHelper.md) &ndash; The VirginiaMessageHelper class.

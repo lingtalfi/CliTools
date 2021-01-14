@@ -50,7 +50,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [CommandLineInput::prepare](https://github.com/lingtalfi/CliTools/blob/master/Input/CommandLineInput.php#L114-L162)
+See the source code for method [CommandLineInput::prepare](https://github.com/lingtalfi/CliTools/blob/master/Input/CommandLineInput.php#L114-L163)
 
 
 See Also

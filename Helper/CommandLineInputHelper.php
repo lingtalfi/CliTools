@@ -44,4 +44,23 @@ class CommandLineInputHelper
         $proxyInput->setOptions($input->getOptions());
         return $proxyInput;
     }
+
+
+    /**
+     * Returns the argv array version of the given param string.
+     * This method assumes that the php cli is available as "php" on your system.
+     *
+     * https://stackoverflow.com/questions/34868421/get-argv-from-a-string-with-php
+     *
+     * @param string $str
+     * @return array
+     */
+    public static function paramStringToArgv(string $str): array
+    {
+        // the array shift removes the dash I had as first element of the argv, your mileage may vary
+        $serializedArguments = shell_exec(
+            sprintf('php -r "array_shift(\\$argv); echo serialize(\\$argv);" -- %s', $str)
+        );
+        return unserialize($serializedArguments);
+    }
 }

@@ -113,6 +113,7 @@ class CommandLineInput extends AbstractInput
      */
     private function prepare(array $argv)
     {
+
         // drop program name
         array_shift($argv);
 

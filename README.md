@@ -73,6 +73,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
 
+- 1.10.17 -- 2021-01-14
+
+    - add CommandLineInputHelper::paramStringToArgv method
+  
 - 1.10.16 -- 2021-01-14
 
     - add CommandLineInputHelper
