@@ -24,7 +24,7 @@ It specifies how parameters, options and flags should be written.
 The command line structure
 ---------------------
 
-The command line is composed of white-space separated components:
+The command line is composed of white-space separated components (aka arguments):
 
 
 - **option**: an option contains an equal symbol (=). The key is the part on the left of the equal symbol, and the value is the part on the right.

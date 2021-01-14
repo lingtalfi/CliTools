@@ -73,6 +73,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
 
+- 1.10.19 -- 2021-01-14
+
+    - update CommandLineInput, add precision about arguments in class comment.
+  
 - 1.10.18 -- 2021-01-14
 
     - add CommandLineInputHelper::getCommandLineByInput method
