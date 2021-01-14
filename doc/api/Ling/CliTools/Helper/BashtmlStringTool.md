@@ -4,7 +4,7 @@
 
 The BashtmlStringTool class
 ================
-2019-02-26 --> 2021-01-12
+2019-02-26 --> 2021-01-14
 
 
 
@@ -56,4 +56,4 @@ See the source code of [Ling\CliTools\Helper\BashtmlStringTool](https://github.c
 
 SeeAlso
 ==============
-Previous class: [FormatterInterface](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Formatter/FormatterInterface.md)<br>Next class: [QuestionHelper](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Helper/QuestionHelper.md)<br>
+Previous class: [FormatterInterface](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Formatter/FormatterInterface.md)<br>Next class: [CommandLineInputHelper](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Helper/CommandLineInputHelper.md)<br>

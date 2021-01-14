@@ -4,7 +4,7 @@
 
 The QuestionHelper class
 ================
-2019-02-26 --> 2021-01-12
+2019-02-26 --> 2021-01-14
 
 
 
@@ -54,4 +54,4 @@ See the source code of [Ling\CliTools\Helper\QuestionHelper](https://github.com/
 
 SeeAlso
 ==============
-Previous class: [BashtmlStringTool](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Helper/BashtmlStringTool.md)<br>Next class: [VirginiaMessageHelper](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Helper/VirginiaMessageHelper.md)<br>
+Previous class: [CommandLineInputHelper](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Helper/CommandLineInputHelper.md)<br>Next class: [VirginiaMessageHelper](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Helper/VirginiaMessageHelper.md)<br>
