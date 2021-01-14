@@ -54,7 +54,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [CommandLineInput::__construct](https://github.com/lingtalfi/CliTools/blob/master/Input/CommandLineInput.php#L86-L100)
+See the source code for method [CommandLineInput::__construct](https://github.com/lingtalfi/CliTools/blob/master/Input/CommandLineInput.php#L93-L107)
 
 
 See Also

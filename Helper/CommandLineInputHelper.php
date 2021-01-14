@@ -63,4 +63,143 @@ class CommandLineInputHelper
         );
         return unserialize($serializedArguments);
     }
+
+
+    /**
+     * Returns the [command line input](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Input/CommandLineInput.md) version of the [command line](https://github.com/lingtalfi/CliTools/blob/master/doc/pages/command-line.md) from the given input.
+     * Note that the functionality of the returned command line will be the same, but the order of arguments and notation might change, in particular:
+     *
+     * - combined flags will be expanded as individuals
+     * - all options will be protected by double quotes
+     * - we always return arguments in this order:
+     *      - parameters
+     *      - options
+     *      - flags
+     *
+     *
+     *
+     * @param InputInterface $input
+     * @return string
+     */
+    public static function getCommandLineByInput(InputInterface $input): string
+    {
+        $s = '';
+        $options = $input->getOptions();
+        $flags = array_filter($input->getFlags());
+        $parameters = $input->getParameters();
+        $c = 0;
+        foreach ($parameters as $parameter) {
+            if (0 !== $c) {
+                $s .= ' ';
+            }
+            $s .= self::escape($parameter);
+            $c++;
+        }
+
+        if ($options) {
+            if ('' !== $s) {
+                $s .= ' ';
+            }
+            $c = 0;
+            foreach ($options as $k => $v) {
+                if (0 !== $c) {
+                    $s .= " ";
+                }
+                $s .= self::escape($k) . '="' . self::escapeDoubleQuotes($v) . '"';
+                $c++;
+            }
+        }
+
+        if ($flags) {
+            if ('' !== $s) {
+                $s .= ' ';
+            }
+            $c = 0;
+            foreach ($flags as $name) {
+                if (0 !== $c) {
+                    $s .= " ";
+                }
+                $s .= '-';
+                if (strlen($name) > 1) {
+                    $s .= '-';
+                }
+                $s .= self::escape($name);
+                $c++;
+            }
+        }
+        return $s;
+    }
+
+
+    //--------------------------------------------
+    //
+    //--------------------------------------------
+    /**
+     * Returns the quote escaped version of the given string.
+     * @param string $str
+     * @return string
+     */
+    private static function escape(string $str): string
+    {
+        return str_replace([
+            '"',
+            "'",
+        ], [
+            '\"',
+            "\'",
+        ], $str);
+    }
+
+
+    /**
+     * Returns the double quote escaped version of the given string.
+     * @param string $str
+     * @return string
+     */
+    private static function escapeDoubleQuotes(string $str): string
+    {
+        return str_replace('"', '\"', $str);
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -36,6 +36,13 @@ use Ling\CliTools\Exception\InvalidContextException;
  * - The value of a a flag always resolves to a boolean: true if set, or false if not set.
  * - Dashes at the beginning of an option or a flag are not part of the option name or flag name.
  * - Regular quoting (with single or double quotes) can be used to protect the option's values if necessary.
+ * - Inside double quotes, double quotes are allowed only if they are escaped with a backslash.
+ * - Inside single quotes, single quotes are not allowed, as I encountered some weird behaviour with my bash/terminal:
+ *      testing this string in my console:
+ *          - light import Ling.Chronos efg="some th\"ings" --sugar=no -d elf='no t"han\'ks'
+ *      it doesn't reach the php cli, because of the \' before the k.
+ *      Instead, it opens the terminal multiline mode.
+ *
  * - The equal symbol (=) is reserved for separating an option key from its value, and therefore cannot be part of a parameter name, an option name, and/or a flag name.
  * - An element starting only with one dash is a one-letter flag, or a combination of multiple one-letter flags.
  *
