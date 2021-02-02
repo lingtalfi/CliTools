@@ -4,7 +4,7 @@
 
 The WritableCommandLineInput class
 ================
-2019-02-26 --> 2021-01-14
+2019-02-26 --> 2021-02-02
 
 
 
@@ -37,7 +37,6 @@ class <span class="pl-k">WritableCommandLineInput</span> extends [CommandLineInp
 
 - Inherited methods
     - public [CommandLineInput::__construct](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Input/CommandLineInput/__construct.md)(?array $argv = null) : void
-    - private [CommandLineInput::prepare](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Input/CommandLineInput/prepare.md)(array $argv) : void
     - public [AbstractInput::hasFlag](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Input/AbstractInput/hasFlag.md)(string $flagName) : bool
     - public [AbstractInput::getOption](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Input/AbstractInput/getOption.md)(string $optionName, ?$default = null) : mixed | null
     - public [AbstractInput::getParameter](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Input/AbstractInput/getParameter.md)(int $index, ?$default = null) : mixed | null
@@ -60,7 +59,6 @@ Methods
 - [WritableCommandLineInput::setParameters](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Input/WritableCommandLineInput/setParameters.md) &ndash; Sets the parameters.
 - [WritableCommandLineInput::rewriteParameterIndexes](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Input/WritableCommandLineInput/rewriteParameterIndexes.md) &ndash; 
 - [CommandLineInput::__construct](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Input/CommandLineInput/__construct.md) &ndash; Builds the class instance.
-- [CommandLineInput::prepare](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Input/CommandLineInput/prepare.md) &ndash; Parses the command line and stores the flags, options and parameters to be accessed via the getter methods.
 - [AbstractInput::hasFlag](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Input/AbstractInput/hasFlag.md) &ndash; Returns whether the flag $flagName was set.
 - [AbstractInput::getOption](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Input/AbstractInput/getOption.md) &ndash; Returns the value of the option $optionName if set, or the $default value if the option was not defined.
 - [AbstractInput::getParameter](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Input/AbstractInput/getParameter.md) &ndash; Returns the value of the parameter at index $index, or the $default value if no parameter was defined for the given index.

@@ -151,7 +151,6 @@ abstract class AbstractProgram implements ProgramInterface
             $exitCode = $this->runProgram($input, $output);
         } catch (\Exception $e) {
 
-
             $exitCode = 1;
             if (true === $this->errorIsVerbose) {
                 $errMsg = (string)$e;
@@ -186,7 +185,7 @@ abstract class AbstractProgram implements ProgramInterface
      * The exit status.
      * If null is returned, 0 should be assumed.
      */
-    abstract protected function runProgram(InputInterface $input, OutputInterface $output);
+    abstract protected function runProgram(InputInterface $input, OutputInterface $output): int|null;
 
 
 }

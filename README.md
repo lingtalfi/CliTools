@@ -1,6 +1,6 @@
 CliTools
 ===========
-2019-02-22 -> 2021-01-14
+2019-02-22 -> 2021-02-02
 
 
 
@@ -73,6 +73,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
 
+- 1.10.20 -- 2021-02-02
+
+    - update Application->runProgram, add return type
+  
 - 1.10.19 -- 2021-01-14
 
     - update CommandLineInput, add precision about arguments in class comment.

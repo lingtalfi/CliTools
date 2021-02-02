@@ -83,7 +83,7 @@ class Application extends AbstractProgram
     /**
      * @implementation
      */
-    protected function runProgram(InputInterface $input, OutputInterface $output)
+    protected function runProgram(InputInterface $input, OutputInterface $output): int|null
     {
         $commandAlias = $input->getParameter(1);
         if (null === $commandAlias) {
