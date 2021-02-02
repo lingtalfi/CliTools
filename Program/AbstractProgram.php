@@ -181,11 +181,14 @@ abstract class AbstractProgram implements ProgramInterface
      *
      * @overrideMe
      *
-     * @return int|null
-     * The exit status.
-     * If null is returned, 0 should be assumed.
+     * @return mixed
+     * If int is returned, it's the exit status.
+     * If nothing or null is returned, 0 should be assumed.
+     * Other return types are free to be interpreted as you see fit.
+     *
+     *
      */
-    abstract protected function runProgram(InputInterface $input, OutputInterface $output): int|null;
+    abstract protected function runProgram(InputInterface $input, OutputInterface $output);
 
 
 }
