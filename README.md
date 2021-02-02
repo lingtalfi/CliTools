@@ -73,6 +73,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
 
+- 1.10.21 -- 2021-02-02
+
+    - update CommandInterface->run, add return type
+  
 - 1.10.20 -- 2021-02-02
 
     - update Application->runProgram, add return type

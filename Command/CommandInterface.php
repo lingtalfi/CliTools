@@ -35,9 +35,9 @@ interface CommandInterface
      *
      * @param InputInterface $input
      * @param OutputInterface $output
-     * @return int
+     * @return int|null
      * The exit status.
      * If null, 0 should be assumed.
      */
-    public function run(InputInterface $input, OutputInterface $output);
+    public function run(InputInterface $input, OutputInterface $output): int|null;
 }
