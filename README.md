@@ -73,6 +73,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
 
+- 1.10.24 -- 2021-02-02
+
+    - add QuestionHelper::askYesNo method
+  
 - 1.10.23 -- 2021-02-02
 
     - update AbstractProgram->runProgram, made return type implicit for more flexibility
