@@ -4,7 +4,7 @@
 
 The QuestionHelper class
 ================
-2019-02-26 --> 2021-02-02
+2019-02-26 --> 2021-02-04
 
 
 
@@ -28,7 +28,7 @@ class <span class="pl-k">QuestionHelper</span>  {
 
 - Methods
     - public static [ask](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Helper/QuestionHelper/ask.md)([Ling\CliTools\Output\OutputInterface](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Output/OutputInterface.md) $output, string $question, ?callable $validate = null) : string
-    - public static [askYesNo](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Helper/QuestionHelper/askYesNo.md)([Ling\CliTools\Output\OutputInterface](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Output/OutputInterface.md) $output, string $question) : string
+    - public static [askYesNo](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Helper/QuestionHelper/askYesNo.md)([Ling\CliTools\Output\OutputInterface](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Output/OutputInterface.md) $output, string $question) : bool
 
 }
 
@@ -41,7 +41,7 @@ Methods
 ==============
 
 - [QuestionHelper::ask](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Helper/QuestionHelper/ask.md) &ndash; Asks the given $question to the $user, and returns the answer (string).
-- [QuestionHelper::askYesNo](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Helper/QuestionHelper/askYesNo.md) &ndash; Asks the given question to the user, and returns the answer, only if it's y or n.
+- [QuestionHelper::askYesNo](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Helper/QuestionHelper/askYesNo.md) &ndash; Asks the given question to the user, repeats it until the answer is either y or n, and returns whether the answer was y.
 
 
 

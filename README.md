@@ -1,6 +1,6 @@
 CliTools
 ===========
-2019-02-22 -> 2021-02-02
+2019-02-22 -> 2021-02-04
 
 
 
@@ -73,6 +73,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
 
+- 1.10.25 -- 2021-02-04
+
+    - update QuestionHelper::askYesNo, now returns bool instead of string
+  
 - 1.10.24 -- 2021-02-02
 
     - add QuestionHelper::askYesNo method

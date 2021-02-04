@@ -7,7 +7,7 @@ QuestionHelper::askYesNo
 
 
 
-QuestionHelper::askYesNo — Asks the given question to the user, and returns the answer, only if it's y or n.
+QuestionHelper::askYesNo — Asks the given question to the user, repeats it until the answer is either y or n, and returns whether the answer was y.
 
 
 
@@ -16,12 +16,12 @@ Description
 ================
 
 
-public static [QuestionHelper::askYesNo](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Helper/QuestionHelper/askYesNo.md)([Ling\CliTools\Output\OutputInterface](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Output/OutputInterface.md) $output, string $question) : string
+public static [QuestionHelper::askYesNo](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Helper/QuestionHelper/askYesNo.md)([Ling\CliTools\Output\OutputInterface](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Output/OutputInterface.md) $output, string $question) : bool
 
 
 
 
-Asks the given question to the user, and returns the answer, only if it's y or n.
+Asks the given question to the user, repeats it until the answer is either y or n, and returns whether the answer was y.
 If it's something else, ask to try again until the answer is y or n.
 
 
@@ -43,7 +43,7 @@ Parameters
 Return values
 ================
 
-Returns string.
+Returns bool.
 
 
 
