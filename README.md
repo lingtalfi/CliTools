@@ -1,6 +1,6 @@
 CliTools
 ===========
-2019-02-22 -> 2021-03-05
+2019-02-22 -> 2021-05-21
 
 
 
@@ -78,6 +78,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
 
+- 1.10.27 -- 2021-05-21
+
+    - add QuestionHelper::askClear method
+  
 - 1.10.26 -- 2021-03-05
 
     - update README.md, add install alternative
