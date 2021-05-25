@@ -1,6 +1,6 @@
 CliTools
 ===========
-2019-02-22 -> 2021-05-21
+2019-02-22 -> 2021-05-25
 
 
 
@@ -78,6 +78,10 @@ and the [Symfony/Console](https://github.com/symfony/symfony/tree/master/src/Sym
 History Log
 =================
 
+- 1.10.28 -- 2021-05-25
+
+    - update api, ensure return status is passed correctly from the commands to the app
+  
 - 1.10.27 -- 2021-05-21
 
     - add QuestionHelper::askClear method
